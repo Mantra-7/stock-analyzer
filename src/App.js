@@ -9,12 +9,8 @@ export const App = () =>{
 
 	const [stocks, setStocks] = useState([
 		{
-			name: 'huh',
-			vals: [1,2,3,4]
-		},
-		{
-			name: 'hhfie',
-			vals: [0,3,0,1]
+			name: 'Example',
+			vals: [1.8,-2.35,3,29.41]
 		}
 	])
 
