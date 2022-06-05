@@ -9,7 +9,7 @@ export const Header = (props) => {
 
 				<div className="container my-3">
 					<lable>Number of values in each stock: </lable>
-					<input type="number" id='min' step='1'/>
+					<input type="number" id='min' step='1' default='4' placeholder='4'/>
 					<button className="btn btn-sm btn-secondary mx-3" onClick={() => {props.updM()}}>Set</button>
 				</div>
 
