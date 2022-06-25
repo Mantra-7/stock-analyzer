@@ -25,7 +25,7 @@ export const Result = (props) => {
 	
 	for(let i=0;i<props.m;i++)
 	{
-		ranks[i].sort(function(a, b){return a.first - b.first});
+		ranks[i].sort(function(a, b){return b.first - a.first});
 	}
 
 	var marks = []
